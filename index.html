@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adarsh BAlik neog camp by vivek kumar</title>
     <style>
+
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
         .list{
             display: inline-flex;
             list-style: none;
@@ -22,12 +27,13 @@
             height: 2rem;
             background-color: blueviolet;
             align-items: center;
-            border-radius: 5px;
+            border-radius: 27px;
             border: none;
             color: white;
             font-weight: 400;
             margin-top: 10px;
-            position:;
+            position: relative;
+            
         }
         .container {
           height: 2rem;
@@ -46,6 +52,41 @@
        border: none;
        border-radius: 8px;
    }
+   
+   .container-section{
+       padding-left: 30rem;
+   }
+   .link{
+       display: flex;
+       padding-left: 40rem;
+   }
+.link1{
+         background-color: white;
+         width: 20%;
+         text-align: center;
+         border-radius: 27px;
+         height: 2rem;
+         border: solid 2px blueviolet ;
+         
+}
+
+.link1 :hover{
+    color: rgb(0, 0, 0);
+  
+}
+.link2{
+         background-color: blueviolet;
+         width: 20%;
+         text-align: center;
+         border-radius: 27px;
+         height: 2rem;
+         
+}
+
+.link2 :hover{
+    color: white;
+  
+}
 
 
     </style>
@@ -67,13 +108,20 @@
 <hr>
 <h1>@containers</h1>
 <h1>@fluid container</h1>
+<div class="container-section">
 <section>This is going to be a center container. It will go till a given width and center content.
 </section>
+</div>
+<br>
+<br>
 
-
-<link>
-<a href="#">my link</a>
-<a href="#">your link</a>
+<div class="link">
+<link >
+<div class="link1">
+<a  href="#">my link</a></div>
+<div class="link2">
+<a  id="link2" href="#">your link</a></div>
+</div>
 <hr>
 <h2>@lists</h2>
 <h2>unordered lists</h2>
