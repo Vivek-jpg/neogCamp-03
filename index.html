@@ -11,6 +11,13 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.topnav{
+    
+    height: 3rem;
+    border-radius: 10px;
+    float:right;
+   
+}
         .list{
             display: inline-flex;
             list-style: none;
@@ -87,6 +94,51 @@ body{
     color: white;
   
 }
+.SECTION1{
+    width: 100%;
+    height: 10rem;
+    background-color: rgb(212, 212, 212);
+    border-radius: 5px;
+
+}
+.list3{
+    padding-left: 500px;
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+.navbar{
+    background-color: blueviolet;
+    height: 6.5vh;
+    width: 100%;
+    border-radius: 5px;
+}
+.heading{
+    width: 50px;
+    padding-top:8px;padding-left: 20px;
+    color: white;
+    float: left;
+}
 
 
     </style>
@@ -143,21 +195,21 @@ body{
 </ol>
 <hr>
 <h2>@NAv</h2>
+<div class="navbar">
 <nav>
-    <div style="background-color: blueviolet; " >my website
-    <ul class="list">
-        <li class="list">
-            <a href="#" >home</a>
-        </li>
-        <li>
-            <a href="#" >menu</a>
-        </li>
-        <li>
-            <a href="#" >help</a>
-        </li>
-    </ul>
-    </div>
+  
+    <div class="heading">Adarshbalika</div>  
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+     
+      </div>
+     
+      
 </nav>
+</div>
 <hr>
 <h2>Header</h2>
 <img  class="img " src="image.svg"/>
@@ -179,7 +231,7 @@ body{
 <br>
 <hr>
 <div class="box">
-    <div style="text-align: center;">inside off white section</div>
+    <div class="SECTION1" style="text-align: center;">inside off white section</div>
     <br>
     <br>
     <div>Text defining this section and many more things</div>
